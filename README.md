@@ -13,6 +13,7 @@ Antes de começar, instale os seguintes pacotes no seu sistema:
 ```bash
 sudo apt update
 sudo apt install ruby ruby-dev build-essential zlib1g-dev libffi-dev
+```
 
 ## para fedora
 sudo dnf install ruby ruby-devel @development-tools libffi-devel zlib-devel
@@ -22,6 +23,7 @@ git clone https://github.com/FunciHead/edulucas.com.git
 cd edulucas.com
 
 ## Instalação, configuração e inciação do servidor local
+```
 bundle config set path 'vendor/bundle'
 bundle install
 bundle exec jekyll serve
