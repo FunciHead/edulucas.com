@@ -3,3 +3,8 @@ url: "https://www.edulucas.com"
 theme: minima
 plugins:
   - jekyll-feed
+header_pages:
+  - about.md
+
+github_username: FunciHead
+linkedin_username: eduardo-andrade-lucas
