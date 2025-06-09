@@ -3,7 +3,7 @@ layout: default
 title: Blog
 ---
 
-# Blog Posts
+# Eduardo Lucas Blog
 
 {% assign posts_by_year = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
 
