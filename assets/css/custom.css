@@ -1,0 +1,12 @@
+/* Center main content */
+.wrap {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Optional: center post content and headings */
+.entry,
+.page-content {
+  text-align: center;
+}
