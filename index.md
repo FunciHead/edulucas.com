@@ -1,8 +1,19 @@
 ---
 layout: default
-title: Home
+title: Blog
 ---
 
-# Hello World!
+# Blog Posts
 
-Bem-vindo ao meu site com Jekyll!
+{% assign posts_by_year = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+
+{% for year in posts_by_year %}
+### {{ year.name }}
+
+<ul>
+  {% for post in year.items %}
+  <li>{{ post.date | date: "%d/%m/%Y" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+{% endfor %}
