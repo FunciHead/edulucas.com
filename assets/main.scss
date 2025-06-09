@@ -1,0 +1,89 @@
+---
+---
+
+@import "minima";
+
+/* Cores neon/hacker sobre o tema padrão */
+:root {
+  --background: #000000;
+  --foreground: #00ff00;
+  --link: #00ccff;
+  --hover: #ff00cc;
+}
+
+/* Sobrescrevendo estilos padrão */
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Share Tech Mono', monospace;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+  text-shadow: 0 0 5px var(--link);
+}
+
+a:hover {
+  color: var(--hover);
+  text-shadow: 0 0 8px var(--hover);
+}
+
+.site-header, .site-footer {
+  background-color: #0a0a0a;
+  border-color: var(--foreground);
+  box-shadow: 0 0 10px var(--foreground);
+}
+
+.site-title, .site-title:visited {
+  color: var(--foreground);
+  text-shadow: 0 0 5px var(--foreground);
+}
+
+.site-nav .page-link {
+  color: var(--foreground);
+}
+
+.site-nav .page-link:hover {
+  color: var(--hover);
+}
+
+h1, h2, h3, h4 {
+  color: var(--foreground);
+  text-shadow: 0 0 5px var(--foreground);
+}
+
+/* Post content */
+.post-content {
+  background-color: rgba(0, 255, 0, 0.03);
+  padding: 1rem;
+  border-left: 3px solid var(--foreground);
+}
+
+/* Código */
+pre, code {
+  background-color: #111;
+  color: var(--foreground);
+  border-left: 3px solid var(--hover);
+  padding: 0.5rem;
+  overflow-x: auto;
+}
+
+/* Botões (se você usar) */
+button {
+  background: black;
+  color: var(--foreground);
+  border: 1px solid var(--foreground);
+  padding: 0.4rem 1rem;
+  margin-top: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: var(--foreground);
+  color: black;
+  box-shadow: 0 0 10px var(--foreground);
+}
