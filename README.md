@@ -29,7 +29,7 @@ docker build -t edulucas-site .
 docker run -p 4000:4000 edulucas-site
 ```
 
-## Rodando de forma alternativa
+## Rodando de forma alternativa (sem docker)
 
 ```
 bundle config set path 'vendor/bundle'
