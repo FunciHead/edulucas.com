@@ -29,7 +29,7 @@ docker build -t edulucas-site .
 docker run -p 4000:4000 edulucas-site
 ```
 
-## alternativamente
+## Rodando de forma alternativa
 
 ```
 bundle config set path 'vendor/bundle'
@@ -37,5 +37,5 @@ bundle install
 bundle exec jekyll serve
 ```
 
-### acesse: 
+### Após iniciar o processo acesse: 
 http://localhost:4000
