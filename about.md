@@ -1,7 +1,6 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
-My name is eduardo lucas, i'm a security researcher
