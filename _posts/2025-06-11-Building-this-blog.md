@@ -37,7 +37,7 @@ do the job.
 
 # Tools
 
-<img src="/assets/images/2025-06-11-Building-this-blog/Saber_Alter_Ruby.png"/>
+<img src="/assets/images/2025-06-11-Building-this-blog/Saber_Alter_Ruby.png" loading="lazy"/>
 
 While reading the documentation of Github pages i saw that they used [Jekyll](https://jekyllrb.com/) a ruby framework
 for static web pages, so it was literally perfect for me, and i immediately installed it in my project.
