@@ -39,3 +39,6 @@ bundle exec jekyll serve
 
 ### Após iniciar o processo acesse: 
 http://localhost:4000
+
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
