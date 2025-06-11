@@ -94,3 +94,19 @@ button:hover {
   color: #666;
   font-size: 0.9em;
 }
+
+.my-footer {
+  text-align: center;
+
+  a,
+  a:visited {
+    color: var(--foreground);
+    text-shadow: 0 0 5px var(--foreground);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--hover);
+    text-shadow: 0 0 8px var(--hover);
+  }
+}
