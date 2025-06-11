@@ -1,5 +1,5 @@
 baseurl: ""
-url: "https://www.edulucas.com" 
+url: "https://edulucas.com" 
 theme: minima
 plugins:
   - jekyll-feed
