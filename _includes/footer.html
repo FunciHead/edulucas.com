@@ -1,5 +1,16 @@
 <div class="page-footer">
   <a href="https://github.com/FunciHead">GitHub</a> • 
-  <a href="https://www.linkedin.com/in/eduardo-andrade-lucas">LinkedIn</a> • 
-  <a href="eduardolucassec@outlook.com">Email</a>
+  <a href="">LinkedIn</a> • 
+  <a href="#" onclick="copyText('edulucassec@outlook.com'); return false;">Email</a>
+
+
+<!-- this is all the js i'm using --> 
+<script>
+  function copyText(text) {
+    navigator.clipboard.writeText(text)
+      .then(() => alert('Email copied to clipboard!'))
+      .catch(err => console.error('Failed to copy: ', err));
+  }
+</script>
+
 </div>
