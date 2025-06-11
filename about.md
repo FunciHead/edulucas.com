@@ -15,4 +15,4 @@ When I’m not diving into hacking challenges or geeking out over gadgets, you�
 
 <img src="/assets/images/about/lazarus-anime.gif" loading="lazy">
 
-Thanks for stopping by — feel free to say hi or talk about martial arts!
+Thanks for stopping by feel free to say hi or talk about martial arts!
