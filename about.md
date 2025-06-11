@@ -9,7 +9,7 @@ permalink: /about/
 
 I’m Eduardo, a cybersecurity student from Brazil. I’m all about learning how to keep things safe online and messing around with tech stuff.
 
-<img src="/assets/images/about/hacker-pc.gif" loading="lazy">
+<img src="/assets/images/about/hacker-pc-ezgif.com-optimize.gif" loading="lazy">
 
 When I’m not diving into hacking challenges or geeking out over gadgets, you’ll probably find me practicing capoeira or rolling on the mat with some jiu jitsu.
 
