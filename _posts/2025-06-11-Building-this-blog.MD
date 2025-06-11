@@ -37,7 +37,7 @@ do the job.
 
 # Tools
 
-<iframe src="https://drive.google.com/file/d/1iSvT-cCoTlXw3u_y4q2pKPWEi-y5F__C/preview" width="640" height="480" allow="autoplay"></iframe>
+<img src="/assets/images/2025-06-11-Building-this-blog/Saber_Alter_Ruby.png"/>
 
 While reading the documentation of Github pages i saw that they used [Jekyll](https://jekyllrb.com/) a ruby framework
 for static web pages, so it was literally perfect for me, and i immediately installed it in my project.
